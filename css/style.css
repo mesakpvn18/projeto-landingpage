@@ -100,3 +100,21 @@
 .form input[type=submit]:hover{
     background-color: #323665;
 }
+
+.container-list{
+    float: left;
+    width: 619px;
+    height: 270px;
+    background-color: rgba(33, 35, 67, .7);
+    margin-top: 40px;
+    padding: 30px;
+}
+
+.container-list ul{
+    list-style-position: inside;
+}
+
+.container-list ul li{
+    color: white;
+    margin-top: 18px;
+}
