@@ -48,7 +48,8 @@
     float: right;
     position: relative;
     top: -15px;
-    border: 8px solid #ccc;
+    border: 8px solid rgb(204, 204, 204, .4);
+    background-clip: padding-box;
 }
 .form h2{
     font-size: 20px;
@@ -117,4 +118,32 @@
 .container-list ul li{
     color: white;
     margin-top: 18px;
+}
+
+.container{
+    padding: 40px 0;
+    background-color: #dddddd;
+    text-align: center;
+}
+
+
+.container h2{
+    font-weight: normal;
+}
+.container p{
+    width: 698px;
+    display: inline-block;
+    text-align: justify;
+    margin: 15px 0;
+}
+
+.arrow{
+    position: relative;
+    top: 60px;
+    left: 50%;
+    margin-left: -20px;
+    width: 40px;
+    height: 40px;
+    background-image: url('../images/arrow.png');
+    background-size: 100% 100%;
 }
