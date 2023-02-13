@@ -15,6 +15,7 @@
 }
 
 .header{
+    min-width: 1280px;
     display: flex;
     width: 100%;
     height: 60px;
@@ -27,6 +28,7 @@
 }
 
 .container-banner{
+    min-width: 1280px;
     width: 100%;
     height: 557px;
     background-image: url('../images/header_bg.png');
@@ -104,10 +106,10 @@
 
 .container-list{
     float: left;
-    width: 619px;
+    width: 519px;
     height: 270px;
     background-color: rgba(33, 35, 67, .7);
-    margin-top: 40px;
+    margin-top: 100px;
     padding: 30px;
 }
 
@@ -121,6 +123,7 @@
 }
 
 .container{
+    min-width: 1280px;
     padding: 40px 0;
     background-color: #dddddd;
     text-align: center;
@@ -146,4 +149,41 @@
     height: 40px;
     background-image: url('../images/arrow.png');
     background-size: 100% 100%;
+}
+
+.diferenciais{
+    padding: 90px 0;
+}
+
+.diferenciais h2{
+    text-align: center;
+    color: #462663;
+    font-weight: normal;
+}
+
+.container-diferenciais{
+    margin-top: 40px;
+    text-align: center;
+}
+.container-single{
+    float: left;
+    width: 33.33%;
+}
+
+.container-single p{
+    text-align: justify;
+    padding: 30px;
+}
+.clear{
+    clear: both;
+}
+.footer{
+    padding: 20px 0;
+    border-top: 2px solid #888888;
+    text-align: center;
+    color: #888;
+}
+
+.footer p{
+    margin-top: 8px;
 }
